@@ -10,7 +10,7 @@ const MenuItem = ({title, price, description, imageName}) => {
         <>
         <div className="menu-description">
                 <div>
-                    <img className="menu-photos" src={imageName} alt="image 1"/>
+                    <img className="menu-photos" src={'assets/${imageName}'} alt="image 1"/>
                 </div>
                 <div className="menu-description">
                     <div className="menu-text">
